@@ -9,10 +9,10 @@ INICIO
 	Lee contadorPrecio
 	Lee contadorUds
 	
-	Si precio = 0 && contadorPrecio = 0
+	Si precio = 0 && contadorPrecio = 0 
 		Escribe "No se han registrado productos"
 		
-	Mientras precio != 0
+	Mientras precio != 0 hacer
 		Si precio < 0
 			Escribe "El precio no puede ser negativo."
 		SinoSi uds = 0
